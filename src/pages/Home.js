@@ -1,16 +1,14 @@
-import Navbar from "../components/navbar/Navbar";
+import GridVideo from "../components/grid/GridVideo";
 import Tags from "../components/tags/Tags";
-import VideoGrid from "../components/grid/VideoGrid";
 import Pagination from "../components/ui/Pagination";
-import Footer from "../components/Footer";
+
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Tags />
-      <VideoGrid />
+
+      <GridVideo />
       <Pagination />
-      <Footer />
     </>
   );
 };

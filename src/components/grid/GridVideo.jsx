@@ -1,6 +1,6 @@
 import VideoGridItem from "./VideoGridItem";
 
-const VideoGrid = () => {
+const GridVideo = () => {
   return (
     <section className="pt-12">
       <section className="pt-12">
@@ -16,4 +16,4 @@ const VideoGrid = () => {
   );
 };
 
-export default VideoGrid;
+export default GridVideo;
